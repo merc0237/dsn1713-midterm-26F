@@ -6,10 +6,18 @@
   --bs-primary: #2e483a;
   --bs-primary-rgb: 46, 72, 58;
   --bs-body-bg: #f6f3ed;
+  --bs-body-light: #f6f3ed;
 
 }
 
-.bg-body-tertiary
+.btn {
+  background-color: var(--bs-primary);
+  border: none;
+  color: white;
+}
+
+
+
 
 
 .navbar-brand {
@@ -32,6 +40,7 @@ h1, h2, h3 {
   background-position: center;
   background-size: cover;
 }
+
 
 #hero .d-flex {
   height: 800px;
