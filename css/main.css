@@ -20,6 +20,12 @@
   color: #F6F3ED;
 }
 
+.accordion-button:hover {
+  border-color: var(--bs-primary);
+  box-shadow: none;
+
+}
+
 body {
   font-family: "Sarala", sans-serif;
 }
