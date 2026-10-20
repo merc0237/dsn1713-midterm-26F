@@ -14,16 +14,31 @@
   background-color: var(--bs-primary);
   border: none;
   color: white;
+  btn-hover-bg-shade-amount: 85%;
+  btn-hover-bg-tint-amount: 85%;
+
 }
+
+/* .btn-opacity {
+  opacity: 1
+}
+
+.btn-opacity:hover {
+  opacity: 0.75
+} */
+
 
 .navbar-brand {
   color: #F6F3ED;
 }
 
 .accordion-button:hover {
+  border-color:var(--bs-primary);
+}
+
+.accordion-button:active {
   border-color: var(--bs-primary);
   box-shadow: none;
-
 }
 
 body {
