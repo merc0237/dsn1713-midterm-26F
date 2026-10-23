@@ -10,35 +10,39 @@
 
 }
 
+.benefits {
+  padding-top: 0px;
+
+}
+
 .btn {
   background-color: var(--bs-primary);
   border: none;
   color: white;
-  btn-hover-bg-shade-amount: 85%;
-  btn-hover-bg-tint-amount: 85%;
 
 }
 
-/* .btn-opacity {
-  opacity: 1
+.btn-primary {
+  --bs-btn-bg:var(--bs-primary);
+  --bs-btn-hover-bg:#416552;
 }
-
-.btn-opacity:hover {
-  opacity: 0.75
-} */
 
 
 .navbar-brand {
   color: #F6F3ED;
 }
 
-.accordion-button:hover {
-  border-color:var(--bs-primary);
+.border-top {
+  --bs-border-color: var(--bs-primary);
 }
 
-.accordion-button:active {
-  border-color: var(--bs-primary);
+.accordion-button:not(.collapsed) {
+  --bs-accordion-active-color: var(--bs-body-light);
+  background-color: var(--bs-primary);
+  border-color: none;
   box-shadow: none;
+  --bs-accordion-btn-focus-box-shadow: none;
+
 }
 
 body {
@@ -71,7 +75,7 @@ h1, h2, h3 {
 }
 
 #cta .d-flex {
-  height: 400px;
+  height: 600px;
 }
 
 section:not(#hero):not(#cta){
