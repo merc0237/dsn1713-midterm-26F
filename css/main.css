@@ -10,10 +10,6 @@
 
 }
 
-.benefits {
-  padding-top: 0px;
-
-}
 
 .btn {
   background-color: var(--bs-primary);
@@ -25,6 +21,7 @@
 .btn-primary {
   --bs-btn-bg:var(--bs-primary);
   --bs-btn-hover-bg:#416552;
+  --bs-btn-active-bg: #416552; 
 }
 
 
@@ -32,7 +29,7 @@
   color: #F6F3ED;
 }
 
-.border-top {
+.border-primary {
   --bs-border-color: var(--bs-primary);
 }
 
